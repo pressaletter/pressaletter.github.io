@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>press a letter !</title>
+    <!-- link of icon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+
+
+
+    <script src="lettre/alternativefunction.js"></script>
+    <script src="lettre/classe_alphabet.js"></script>
+    <script src="lettre/mainscript.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+
+    <div id=what>
+        <p id=warning class=phone>Unfortunately, this website is design to work with a computer keyboard so will not work to it's full potential on a phone :( <br> <br></p> pressaletter.online is an internet based, computer generated alphabet with a simple geometrical structure
+        which evolves based on the user input. <br> Inspired by the uprising of open-type fonts and other variable typefaces, the alphabet aims to explore the potential of modular letters outside of the strict framework of softwares and file formats.
+        In the radical rectangular grid, the alphabet unfolds - becomes slimmer or thicker - depending on the user’s movement on the screen.
+        <br> Each letter consists of a minimal and singular combination of rectangle and parallelogram. This minimal vocabulary allows the letters to have a strong coherency while being in constant motion. A type processor available on the website allows
+        the user to play and compose poster with the alphabet. <br> <br> Find the rest of my work <a href="https://www.instagram.com/marie_verdeil/">here</a> or on
+        <a href="https://www.instagram.com/marie_verdeil/">instagram</a>
+
+    </div>
+
+    <div id=info>
+        <p id=helper class="btn">type a letter on your keyboard and click to place it!</p>
+        <button id=restart class="btn" onclick="restart()">start again :/</button>
+        <button id=i class="btn">i</button>
+        <button id=savebtn class="btn" onclick="saveposter()">save this poster</button>
+        <button id=email class="btn"><a onclick="saveposter()" href="mailto:marie.verdeil@gmail.com?subject=A%20Beautiful%20Poster&body=Here%20is%20of%20the%20poster%20(I)%20made%20on%20the%20website%20!%20(%20the%20poster%20should%20be%20in%20the%20downloads%20folder%20:-)%20)"> send me your poster!</a></button>
+        <button id=email class="btn"><a href="posters.index.html" target="_blank">see other posters --></a></button>
+        <button id=email class="btn"><a href="olderwebsite/index.html" target="_blank">older website</a></button>
+
+    </div>
+    <div id=canvas></div>
+
+
+
+
+
+
+
+
+</body>
